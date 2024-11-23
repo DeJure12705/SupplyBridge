@@ -26,5 +26,6 @@ class AuthAdmin
                 return redirect()->route('login');
             }
         }
+        
     }
 }
