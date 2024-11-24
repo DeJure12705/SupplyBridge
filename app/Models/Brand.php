@@ -6,13 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Brand extends Model
 {
-use HasFactory;
-public function products()
-{
-    return $this->belongsTo(Category::class,'category_id');
-}
-public function brand()
-{
-    return $this->belongsTo(Brand::class,'brand_id');
-}
+    use HasFactory;
+    
+    public function products()
+    {
+        return $this->hasMany(Product::class);
+    }
 }
