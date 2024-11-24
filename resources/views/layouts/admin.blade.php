@@ -399,7 +399,12 @@
                                                     <img src="images/avatar/duran.png" alt="">
                                                 </span>
                                                 <span class="flex flex-column">
-                                                    <span class="body-title mb-2">Christian Duran</span>
+                                                    <span class="body-title mb-2">
+                                                            @if(Auth::check())
+                                                                    <span> {{ Auth::user()->name }} </span> 
+                                                            @else
+                                                                <p>User not authenticated.</p>
+                                                            @endif</span>
                                                     <span class="text-tiny">Admin</span>
                                                 </span>
                                             </span>
