@@ -12734,19 +12734,19 @@ textarea.form-control-lg {
     border-bottom-color: rgba(255, 255, 255, 0.15); }
 
 .footer_type_2 {
-  background-color: #fd6937;
+  background-color: #ffffff;
   color: #222222; }
   .footer_type_2 .form-select {
     background-image: url("data:image/svg+xml,%3csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M7.49932 0.360778C7.22726 0.0887249 6.77274 0.0887249 6.49999 0.360778L0.206656 6.638C-0.0688853 6.91355 -0.0688853 7.3604 0.206656 7.63524C0.482197 7.91078 0.929749 7.91078 1.20529 7.63524L6.99997 1.85667L12.794 7.63594C13.0702 7.91148 13.517 7.91148 13.7933 7.63594C14.0688 7.3604 14.0688 6.91355 13.7933 6.6387L7.49932 0.360778Z' fill='%23767676'/%3e%3c/svg%3e"); }
   .footer_type_2 .footer-select__option {
-    background-color: #fd6937; }
+    background-color: #ffffff; }
   .footer_type_2 .footer-bottom {
     border-color: #e4e4e4; }
   .footer_type_2 .sub-menu__title {
     color: #222222; }
   .footer_type_2.dark {
     background-color: #222222;
-    color: #fd6937; }
+    color: #ffffff; }
     .footer_type_2.dark .sub-menu__title {
       color: inherit; }
     .footer_type_2.dark .menu-link {
@@ -12755,7 +12755,7 @@ textarea.form-control-lg {
       background-image: url("data:image/svg+xml,%3csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M7.49932 0.360778C7.22726 0.0887249 6.77274 0.0887249 6.49999 0.360778L0.206656 6.638C-0.0688853 6.91355 -0.0688853 7.3604 0.206656 7.63524C0.482197 7.91078 0.929749 7.91078 1.20529 7.63524L6.99997 1.85667L12.794 7.63594C13.0702 7.91148 13.517 7.91148 13.7933 7.63594C14.0688 7.3604 14.0688 6.91355 13.7933 6.6387L7.49932 0.360778Z' fill='%23ffffff'/%3e%3c/svg%3e"); }
     .footer_type_2.dark .footer-select__option {
       background-color: #222222; }
-    .footer_type_2.dark .footer-bottom {
+    .dark .footer-bottom {
       border-color: rgba(255, 255, 255, 0.15); }
     .footer_type_2.dark .footer__social-link:hover {
       color: #767676; }
