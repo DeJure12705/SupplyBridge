@@ -841,7 +841,7 @@
                         <div class="pc__img-wrapper">
                             <a href="details.html">
                                 <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/tocino.jpg')}}" width="330" height="400"
-                                    alt="tocinp" class="pc__img">
+                                    alt="tocino" class="pc__img">
                             </a>
                         </div>
 
