@@ -53,7 +53,7 @@
                     />
                     {{$category->name}}
                   </span>
-               
+                  @endforeach
                   <li class="list-item">
                     <a href="#" class="menu-link py-1">Dresses</a>
                   </li>
@@ -462,9 +462,10 @@
             </div>
           </div>
 
-        @endforeach
+          @endforeach
 
         </div>
+        
 
         <div class="divider"></div>
         <div class="flex items-center justify-between flex-wrap gap10 wgp-pagination">
