@@ -17,6 +17,7 @@
    }
     </style>
 
+
 </style>
 <main class="pt-90">
     <section class="shop-main container d-flex pt-4 pt-xl-5">
@@ -26,7 +27,9 @@
           <button class="btn-close-lg js-close-aside btn-close-aside ms-auto"></button>
         </div>
 
+
         <div class="pt-4 pt-lg-0"></div>
+
 
         <div class="accordion" id="categories-list">
           <div class="accordion-item mb-4 pb-3">
@@ -47,7 +50,7 @@
               <div class="accordion-body px-0 pb-0 pt-3 category-list">
                 <ul class="list list-inline mb-0">
                   @foreach ($categories as $category)
-                  <span class="menu link py-1"> 
+                  <span class="menu link py-1">
                     <input type="checkbox" class="chk-category" name="categories" value="{{$category->id}}"
                     @if (in_array($category->id,explode(',',$f_categories))) checked @endif  
                     />
@@ -55,35 +58,9 @@
                   </span>
                
                   <li class="list-item">
-                    <a href="#" class="menu-link py-1">Dresses</a>
+                    <span class="text-right float-end">{{$category->products->count()}}</span>
                   </li>
-                  <li class="list-item">
-                    <a href="#" class="menu-link py-1">Shorts</a>
-                  </li>
-                  <li class="list-item">
-                    <a href="#" class="menu-link py-1">Sweatshirts</a>
-                  </li>
-                  <li class="list-item">
-                    <a href="#" class="menu-link py-1">Swimwear</a>
-                  </li>
-                  <li class="list-item">
-                    <a href="#" class="menu-link py-1">Jackets</a>
-                  </li>
-                  <li class="list-item">
-                    <a href="#" class="menu-link py-1">T-Shirts & Tops</a>
-                  </li>
-                  <li class="list-item">
-                    <a href="#" class="menu-link py-1">Jeans</a>
-                  </li>
-                  <li class="list-item">
-                    <a href="#" class="menu-link py-1">Trousers</a>
-                  </li>
-                  <li class="list-item">
-                    <a href="#" class="menu-link py-1">Men</a>
-                  </li>
-                  <li class="list-item">
-                    <a href="#" class="menu-link py-1">Jumpers & Cardigans</a>
-                  </li>
+                  @endforeach
                 </ul>
               </div>
             </div>
@@ -91,70 +68,6 @@
         </div>
 
 
-        <!-- <div class="accordion" id="color-filters">
-          <div class="accordion-item mb-4 pb-3">
-            <h5 class="accordion-header" id="accordion-heading-1">
-              <button class="accordion-button p-0 border-0 fs-5 text-uppercase" type="button" data-bs-toggle="collapse"
-                data-bs-target="#accordion-filter-2" aria-expanded="true" aria-controls="accordion-filter-2">
-                Color
-                <svg class="accordion-button__icon type2" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg">
-                  <g aria-hidden="true" stroke="none" fill-rule="evenodd">
-                    <path
-                      d="M5.35668 0.159286C5.16235 -0.053094 4.83769 -0.0530941 4.64287 0.159286L0.147611 5.05963C-0.0492049 5.27473 -0.049205 5.62357 0.147611 5.83813C0.344427 6.05323 0.664108 6.05323 0.860924 5.83813L5 1.32706L9.13858 5.83867C9.33589 6.05378 9.65507 6.05378 9.85239 5.83867C10.0492 5.62357 10.0492 5.27473 9.85239 5.06018L5.35668 0.159286Z" />
-                  </g>
-                </svg>
-              </button>
-            </h5>
-            <div id="accordion-filter-2" class="accordion-collapse collapse show border-0"
-              aria-labelledby="accordion-heading-1" data-bs-parent="#color-filters">
-              <div class="accordion-body px-0 pb-0">
-                <div class="d-flex flex-wrap">
-                  <a href="#" class="swatch-color js-filter" style="color: #0a2472"></a>
-                  <a href="#" class="swatch-color js-filter" style="color: #d7bb4f"></a>
-                  <a href="#" class="swatch-color js-filter" style="color: #282828"></a>
-                  <a href="#" class="swatch-color js-filter" style="color: #b1d6e8"></a>
-                  <a href="#" class="swatch-color js-filter" style="color: #9c7539"></a>
-                  <a href="#" class="swatch-color js-filter" style="color: #d29b48"></a>
-                  <a href="#" class="swatch-color js-filter" style="color: #e6ae95"></a>
-                  <a href="#" class="swatch-color js-filter" style="color: #d76b67"></a>
-                  <a href="#" class="swatch-color swatch_active js-filter" style="color: #bababa"></a>
-                  <a href="#" class="swatch-color js-filter" style="color: #bfdcc4"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-
-        <!-- <div class="accordion" id="size-filters">
-          <div class="accordion-item mb-4 pb-3">
-            <h5 class="accordion-header" id="accordion-heading-size">
-              <button class="accordion-button p-0 border-0 fs-5 text-uppercase" type="button" data-bs-toggle="collapse"
-                data-bs-target="#accordion-filter-size" aria-expanded="true" aria-controls="accordion-filter-size">
-                Sizes
-                <svg class="accordion-button__icon type2" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg">
-                  <g aria-hidden="true" stroke="none" fill-rule="evenodd">
-                    <path
-                      d="M5.35668 0.159286C5.16235 -0.053094 4.83769 -0.0530941 4.64287 0.159286L0.147611 5.05963C-0.0492049 5.27473 -0.049205 5.62357 0.147611 5.83813C0.344427 6.05323 0.664108 6.05323 0.860924 5.83813L5 1.32706L9.13858 5.83867C9.33589 6.05378 9.65507 6.05378 9.85239 5.83867C10.0492 5.62357 10.0492 5.27473 9.85239 5.06018L5.35668 0.159286Z" />
-                  </g>
-                </svg>
-              </button>
-            </h5>
-            <div id="accordion-filter-size" class="accordion-collapse collapse show border-0"
-              aria-labelledby="accordion-heading-size" data-bs-parent="#size-filters">
-              <div class="accordion-body px-0 pb-0">
-                <div class="d-flex flex-wrap">
-                  <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">XS</a>
-                  <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">S</a>
-                  <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">M</a>
-                  <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">L</a>
-                  <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">XL</a>
-                  <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">XXL</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
 
 
         <div class="accordion" id="brand-filters">
@@ -194,6 +107,8 @@
         </div>
 
 
+
+
         <div class="accordion" id="price-filters">
           <div class="accordion-item mb-4">
             <h5 class="accordion-header mb-2" id="accordion-heading-price">
@@ -215,7 +130,7 @@
               <div class="price-range__info d-flex align-items-center mt-2">
                 <div class="me-auto">
                   <span class="text-secondary">Min Price: </span>
-                  <span class="price-range__min">$250</span>
+                  <span class="price-range__min">$100</span>
                 </div>
                 <div>
                   <span class="text-secondary">Max Price: </span>
@@ -226,6 +141,7 @@
           </div>
         </div>
       </div>
+
 
       <div class="shop-list flex-grow-1">
         <div class="swiper-container js-swiper-slider slideshow slideshow_small slideshow_split" data-settings='{
@@ -245,74 +161,80 @@
             <div class="swiper-slide">
               <div class="slide-split h-100 d-block d-md-flex overflow-hidden">
                 <div class="slide-split_text position-relative d-flex align-items-center"
-                  style="background-color: #d1e4ea;">
+                  style="background-color: #f5e6e0;">
                   <div class="slideshow-text container p-3 p-xl-5">
                     <h2
                       class="text-uppercase section-title fw-normal mb-3 animate animate_fade animate_btt animate_delay-2">
-                      SUPPLY  <br /><strong>BRIDGE</strong></h2>
-                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Empower your business with ease—our online platform connects retailers to quality goods at unbeatable bundle deals. 
-                      Discover new styles, stock up on essentials, and elevate your offerings with just a few clicks.</h6>
+                      Women's <br /><strong>ACCESSORIES</strong></h2>
+                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Accessories are the best way to
+                      update your look. Add a title edge with new styles and new colors, or go for timeless pieces.</h6>
                   </div>
                 </div>
                 <div class="slide-split_media position-relative">
-                  <div class="slideshow-bg" style="background-color: #d1e4ea;">
-                    <img loading="lazy" src="assets/images/shop/spbanner1.jpg" width="630" height="450"
+                  <div class="slideshow-bg" style="background-color: #f5e6e0;">
+                    <img loading="lazy" src="assets/images/shop/shop_banner3.jpg" width="630" height="450"
                       alt="Women's accessories" class="slideshow-bg__img object-fit-cover" />
                   </div>
                 </div>
               </div>
             </div>
 
+
             <div class="swiper-slide">
               <div class="slide-split h-100 d-block d-md-flex overflow-hidden">
                 <div class="slide-split_text position-relative d-flex align-items-center"
-                  style="background-color: #d1e4ea;">
+                  style="background-color: #f5e6e0;">
                   <div class="slideshow-text container p-3 p-xl-5">
                     <h2
                       class="text-uppercase section-title fw-normal mb-3 animate animate_fade animate_btt animate_delay-2">
-                      SUPPLY <br /><strong>BRIDGE</strong></h2>
-                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Empower your business with ease—our online platform connects retailers to quality goods at unbeatable bundle deals. 
-                      Discover new styles, stock up on essentials, and elevate your offerings with just a few clicks.</h6>
+                      Women's <br /><strong>ACCESSORIES</strong></h2>
+                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Accessories are the best way to
+                      update your look. Add a title edge with new styles and new colors, or go for timeless pieces.</h6>
                   </div>
                 </div>
                 <div class="slide-split_media position-relative">
-                  <div class="slideshow-bg" style="background-color: #d1e4ea;">
-                    <img loading="lazy" src="assets/images/shop/spbanner1.jpg" width="630" height="450"
+                  <div class="slideshow-bg" style="background-color: #f5e6e0;">
+                    <img loading="lazy" src="assets/images/shop/shop_banner3.jpg" width="630" height="450"
                       alt="Women's accessories" class="slideshow-bg__img object-fit-cover" />
                   </div>
                 </div>
               </div>
             </div>
 
+
             <div class="swiper-slide">
               <div class="slide-split h-100 d-block d-md-flex overflow-hidden">
                 <div class="slide-split_text position-relative d-flex align-items-center"
-                  style="background-color: #d1e4ea;">
+                  style="background-color: #f5e6e0;">
                   <div class="slideshow-text container p-3 p-xl-5">
                     <h2
                       class="text-uppercase section-title fw-normal mb-3 animate animate_fade animate_btt animate_delay-2">
-                      SUPPLY<br /><strong>BRIDGE</strong></h2>
-                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Empower your business with ease—our online platform connects retailers to quality goods at unbeatable bundle deals. 
-                      Discover new styles, stock up on essentials, and elevate your offerings with just a few clicks.</h6>
+                      Women's <br /><strong>ACCESSORIES</strong></h2>
+                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Accessories are the best way to
+                      update your look. Add a title edge with new styles and new colors, or go for timeless pieces.</h6>
                   </div>
                 </div>
                 <div class="slide-split_media position-relative">
-                  <div class="slideshow-bg" style="background-color: #d1e4ea;">
-                    <img loading="lazy" src="assets/images/shop/spbanner1.jpg" width="630" height="450"
+                  <div class="slideshow-bg" style="background-color: #f5e6e0;">
+                    <img loading="lazy" src="assets/images/shop/shop_banner3.jpg" width="630" height="450"
                       alt="Women's accessories" class="slideshow-bg__img object-fit-cover" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
 
           <div class="container p-3 p-xl-5">
             <div class="slideshow-pagination d-flex align-items-center position-absolute bottom-0 mb-4 pb-xl-2"></div>
 
+
           </div>
         </div>
 
+
         <div class="mb-3 pb-2 pb-xl-3"></div>
+
 
         <div class="d-flex justify-content-between mb-4 pb-md-2">
           <div class="breadcrumb mb-0 d-none d-md-block flex-grow-1">
@@ -320,7 +242,7 @@
             <span class="breadcrumb-separator menu-link fw-medium ps-1 pe-1">/</span>
             <a href="#" class="menu-link menu-link_us-s text-uppercase fw-medium">The Shop</a>
           </div>
-          
+         
           <div class="shop-acs d-flex align-items-center justify-content-between justify-content-md-end flex-grow-1" >
           <select class="shop-acs__select form-select w-auto border-0 py-0 order-1 order-md-0" aria-label="Page Size" id="pagesize" name="pagesize" style="margin-right: 20px;">
               <option value="12" {{ $size==12 ? 'selected':'' }}>show</option>
@@ -328,6 +250,7 @@
               <option value="48" {{ $size==48 ? 'selected':'' }}>48</option>
               <option value="102" {{ $size==102 ? 'selected':'' }}>102</option>
             </select>
+
 
             <select class="shop-acs__select form-select w-auto border-0 py-0 order-1 order-md-0" aria-label="Sort Items" name="orderby" id="orderby">
               <option value="-1" {{ $order == -1 ? 'selected':' '}}>Default Sorting</option>
@@ -337,7 +260,9 @@
               <option value="4" {{ $order == 4 ? 'selected':' '}}>Price, High To Low</option>
             </select>
 
+
             <div class="shop-asc__seprator mx-3 bg-light d-none d-md-block order-md-0"></div>
+
 
             <div class="col-size align-items-center order-1 d-none d-lg-flex">
               <span class="text-uppercase fw-medium me-2">View</span>
@@ -345,6 +270,7 @@
               <button class="btn-link fw-medium me-2 js-cols-size" data-target="products-grid" data-cols="3">3</button>
               <button class="btn-link fw-medium js-cols-size" data-target="products-grid" data-cols="4">4</button>
             </div>
+
 
             <div class="shop-filter d-flex align-items-center order-0 order-md-3 d-lg-none">
               <button class="btn-link btn-link_f d-flex align-items-center ps-0 js-open-aside" data-aside="shopFilter">
@@ -358,8 +284,10 @@
           </div>
         </div>
 
+
         <div class="products-grid row row-cols-2 row-cols-md-3" id="products-grid">
          @foreach($products as $product)
+
 
         <div class="product-card-wrapper">
             <div class="product-card mb-3 mb-md-4 mb-xxl-5">
@@ -395,12 +323,12 @@
               <input type="hidden" name="quantity" value="1" />
               <input type="hidden" name="name" value="{{$product->name}}" />
               <input type="hidden" name="price" value="{{$product->sale_price == '' ? $product->regular_price : $product->sale_price}}" />
-        
+       
                 <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
              </form>
-           @endif   
+           @endif  
               </div>
-          
+         
               <div class="pc__info position-relative">
                 <p class="pc__category">{{$product->category->name ?? 'No Category' }}</p>
                 <h6 class="pc__title"><a href="{{route('shop.product.details',['product_slug'=>$product->slug])}}">{{$product->name}}</a></h6>
@@ -434,6 +362,7 @@
                   <span class="reviews-note text-lowercase text-secondary ms-1">8k+ reviews</span>
                 </div>
 
+
                 @if (Cart::instance('wishlist')->content()->where('id', $product->id)->count() > 0)
                 <form method="POST" action="{{route('wishlist.item.remove', ['rowId'=>Cart::instance('wishlist')->content()->where('id', $product->id)->first()->rowId])}}">
                   @csrf
@@ -462,9 +391,12 @@
             </div>
           </div>
 
+
         @endforeach
 
+
         </div>
+
 
         <div class="divider"></div>
         <div class="flex items-center justify-between flex-wrap gap10 wgp-pagination">
@@ -473,6 +405,7 @@
       </div>
     </section>
   </main>
+
 
   <form id="frmfilter" method="GET" action="{{route('shop.index')}}">
     <input type="hidden" name="page" value="{{$products->currentPage()}}">
@@ -483,9 +416,12 @@
     <input type="hidden" name="min" id="hdnMinPrice" value="{{$min_price}}">
     <input type="hidden" name="max" id="hdnMaxPrice" value="{{$max_price}}">
 
+
   </form>
 
+
 @endsection
+
 
 @push('scripts')
 <script>
@@ -495,14 +431,16 @@
       $("#frmfilter").submit();
     });
 
+
     $("#orderby").on("change", function(){
       $("#order").val($("#orderby option:selected").val());
       $("#frmfilter").submit();
     });
 
+
     $("input[name='brands']").on("change",function(){
   var brands = "";
-    $("input[name='brands']:checked").each(function(){ 
+    $("input[name='brands']:checked").each(function(){
     if(brands == ""){
     brands += $(this).val();
     }else{
@@ -512,10 +450,10 @@
     $("#hdnBrands").val(brands);
     $("#frmfilter").submit();
     });
-        
+       
     $("input[name='categories']").on("change",function(){
   var categories = "";
-    $("input[name='categories']:checked").each(function(){ 
+    $("input[name='categories']:checked").each(function(){
     if(categories == ""){
     categories += $(this).val();
     }else{
@@ -532,6 +470,6 @@
       $("#hdnMaxPrice").val(max);
       $("#frmfilter").submit();
     });
-  }); 
+  });
 </script>
 @endpush
