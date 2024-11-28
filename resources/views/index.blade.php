@@ -14,7 +14,7 @@
             <div class="swiper-slide">
                 <div class="overflow-hidden position-relative h-100">
                     <div class="slideshow-character position-absolute bottom-0 pos_right-center">
-                        <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/PROMO/3s.png')}}" width="542" height="733"
+                        <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/PROMO/7s.png')}}" width="542" height="733"
                             alt="Woman Fashion 1"
                             class="slideshow-character__img animate animate_fade animate_btt animate_delay-9 w-auto h-auto" />
                         <div class="character_markup type2">
@@ -49,8 +49,8 @@
                     <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
                         <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
                             Supply Bridge</h6>
-                        <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Connecting Retailers with</h2>
-                        <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Quality Goods</h2>
+                        <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Home</h2>
+                        <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Delivery Services</h2>
                         <a href="#"
                             class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
                             Now</a>
@@ -61,15 +61,15 @@
             <div class="swiper-slide">
                 <div class="overflow-hidden position-relative h-100">
                     <div class="slideshow-character position-absolute bottom-0 pos_right-center">
-                        <img loading="lazy" src="{{asset('assets/images//home/demo3/supplybridge/PROMO/7s.png')}}" width="400" height="690"
+                        <img loading="lazy" src="{{asset('assets/images//home/demo3/supplybridge/PROMO/3s.png')}}" width="400" height="690"
                             alt="Woman Fashion 2"
                             class="slideshow-character__img animate animate_fade animate_rtl animate_delay-10 w-auto h-auto" />
                     </div>
                     <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
                         <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
                             Supply Bridge</h6>
-                        <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Connecting Retailers with</h2>
-                        <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Quality Goods</h2>
+                        <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Always there to </h2>
+                        <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Serve You   </h2>
                         <a href="#"
                             class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
                             Now</a>
@@ -277,16 +277,16 @@
                                     <div class="pc__img-wrapper">
                                         <a href="details.html">
                                             <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/udonplanter.jpg')}}" width="258" height="313"
-                                                alt="Banana Chips" class="pc__img">
+                                                alt="Udon Planter" class="pc__img">
                                             <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/udonplanter1.jpg')}}" width="258" height="313"
-                                                alt="Banana Chips" class="pc__img pc__img-second">
+                                                alt="Udon Planter" class="pc__img pc__img-second">
                                         </a>
                                     </div>
 
                                     <div class="pc__info position-relative">
-                                        <h6 class="pc__title"><a href="details.html">Banana Chips</a></h6>
+                                        <h6 class="pc__title"><a href="details.html">Planter Udon Brown Combi</a></h6>
                                         <div class="product-card__price d-flex">
-                                            <span class="money price text-secondary">₱55</span>
+                                            <span class="money price text-secondary">₱200</span>
                                         </div>
 
                                         <div
@@ -323,7 +323,7 @@
                                     <div class="pc__info position-relative">
                                         <h6 class="pc__title"><a href="details.html">Abaca Bag</a></h6>
                                         <div class="product-card__price d-flex">
-                                            <span class="money price text-secondary">₱1200</span>
+                                            <span class="money price text-secondary">₱1,500</span>
                                         </div>
 
                                         <div
@@ -350,17 +350,17 @@
                                 <div class="swiper-slide product-card product-card_style3">
                                     <div class="pc__img-wrapper">
                                         <a href="details.html">
-                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/mm.jpg')}}" width="258" height="313"
-                                                alt="Premuim Tablea" class="pc__img">
-                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/mm1.jpg')}}" width="258" height="313"
-                                                alt="Premuim Tablea" class="pc__img pc__img-second">
+                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/Bioessence.png')}}" width="258" height="313"
+                                                alt="Bioessence" class="pc__img">
+                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/Bioessence1.png')}}" width="258" height="313"
+                                                alt="Bioessence" class="pc__img pc__img-second">
                                         </a>
                                     </div>
 
                                     <div class="pc__info position-relative">
-                                        <h6 class="pc__title"><a href="details.html">Premuim Tablea</a></h6>
+                                        <h6 class="pc__title"><a href="details.html">Bioessence Fruit Acid Vitamin C Cream</a></h6>
                                         <div class="product-card__price d-flex">
-                                            <span class="money price text-secondary">₱50</span>
+                                            <span class="money price text-secondary">₱450</span>
                                         </div>
 
                                         <div
@@ -387,18 +387,18 @@
                                 <div class="swiper-slide product-card product-card_style3">
                                     <div class="pc__img-wrapper">
                                         <a href="details.html">
-                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/choco.jpg')}}" width="258" height="313"
-                                                alt="Bagoong Alamang" class="pc__img">
                                             <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/choco1.jpg')}}" width="258" height="313"
-                                                alt="Bagoong Alamang" class="pc__img pc__img-second">
+                                                alt="Malagos Chocolate" class="pc__img">
+                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/choco.jpg')}}" width="258" height="313"
+                                                alt="Malagos Chocolate" class="pc__img pc__img-second">
                                         </a>
                                     </div>
 
                                     <div class="pc__info position-relative">
-                                        <h6 class="pc__title"><a href="details.html">Bagoong Alamang</a></h6>
+                                        <h6 class="pc__title"><a href="details.html">Malagos Chocolate</a></h6>
                                         <div class="product-card__price d-flex align-items-center">
-                                            <span class="money price-old">₱70</span>
-                                            <span class="money price text-secondary">₱40</span>
+                                            <span class="money price-old">₱2000</span>
+                                            <span class="money price text-secondary">₱1,599</span>
                                         </div>
 
                                         <div
@@ -426,16 +426,16 @@
                                     <div class="pc__img-wrapper">
                                         <a href="details.html">
                                             <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/udonplanter.jpg')}}" width="258" height="313"
-                                                alt="Banana Chips" class="pc__img">
+                                                alt="Udon Planter" class="pc__img">
                                             <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/udonplanter1.jpg')}}" width="258" height="313"
-                                                alt="Banana Chips" class="pc__img pc__img-second">
+                                                alt="Udon Planter" class="pc__img pc__img-second">
                                         </a>
                                     </div>
 
                                     <div class="pc__info position-relative">
-                                        <h6 class="pc__title"><a href="details.html">Banana Chips</a></h6>
+                                        <h6 class="pc__title"><a href="details.html">Planter Udon Brown Combi</a></h6>
                                         <div class="product-card__price d-flex">
-                                            <span class="money price text-secondary">₱55</span>
+                                            <span class="money price text-secondary">₱200</span>
                                         </div>
 
                                         <div
@@ -472,7 +472,7 @@
                                     <div class="pc__info position-relative">
                                         <h6 class="pc__title"><a href="details.html">Abaca Bag</a></h6>
                                         <div class="product-card__price d-flex">
-                                            <span class="money price text-secondary">₱1200</span>
+                                            <span class="money price text-secondary">₱1,500</span>
                                         </div>
 
                                         <div
@@ -499,15 +499,15 @@
                                 <div class="swiper-slide product-card product-card_style3">
                                     <div class="pc__img-wrapper">
                                         <a href="details.html">
-                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/mm.jpg')}}" width="258" height="313"
-                                                alt="Premuim Tablea" class="pc__img">
-                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/mm1.jpg')}}" width="258" height="313"
-                                                alt="Premuim Tablea" class="pc__img pc__img-second">
+                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/bioessence.png')}}" width="258" height="313"
+                                                alt="bioessence" class="pc__img">
+                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/bioessence.png')}}" width="258" height="313"
+                                                alt="bioessence" class="pc__img pc__img-second">
                                         </a>
                                     </div>
 
                                     <div class="pc__info position-relative">
-                                        <h6 class="pc__title"><a href="details.html">Premuim Tablea</a></h6>
+                                        <h6 class="pc__title"><a href="details.html">Bioessence Fruit Acid Vitamin C Cream</a></h6>
                                         <div class="product-card__price d-flex">
                                             <span class="money price text-secondary">₱50</span>
                                         </div>
@@ -536,15 +536,15 @@
                                 <div class="swiper-slide product-card product-card_style3">
                                     <div class="pc__img-wrapper">
                                         <a href="details.html">
-                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/choco.jpg')}}" width="258" height="313"
-                                                alt="Bagoong Alamang" class="pc__img">
                                             <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/choco1.jpg')}}" width="258" height="313"
-                                                alt="Bagoong Alamang" class="pc__img pc__img-second">
+                                                alt="Malagos Chocolate" class="pc__img">
+                                            <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/hotdeals/choco.jpg')}}" width="258" height="313"
+                                                alt="Malagos Chocolate" class="pc__img pc__img-second">
                                         </a>
                                     </div>
 
                                     <div class="pc__info position-relative">
-                                        <h6 class="pc__title"><a href="details.html">Bagoong Alamang</a></h6>
+                                        <h6 class="pc__title"><a href="details.html">Malagos Chocolate</a></h6>
                                         <div class="product-card__price d-flex align-items-center">
                                             <span class="money price-old">₱70</span>
                                             <span class="money price text-secondary">₱40</span>
@@ -587,7 +587,7 @@
                         <img loading="lazy" class="h-auto" src="{{asset('assets/images/home/demo3/supplybridge/mx3.jpg')}}" width="690" height="665"
                             alt="" />
                         <div class="category-banner__item-mark">
-                            Starting at ₱500
+                            Starting at ₱1010
                         </div>
                         <div class="category-banner__item-content">
                             <h3 class="mb-0">MX3</h3>
@@ -600,10 +600,10 @@
                         <img loading="lazy" class="h-auto" src="{{asset('assets/images/home/demo3/supplybridge/driedmango.png')}}" width="690" height="665"
                             alt="" />
                         <div class="category-banner__item-mark">
-                            Starting at ₱20
+                            Starting at ₱190
                         </div>
                         <div class="category-banner__item-content">
-                            <h3 class="mb-0">Kalamansi Juice</h3>
+                            <h3 class="mb-0">Dried Mango Chips</h3>
                             <a href="#" class="btn-link default-underline text-uppercase fw-medium">Shop Now</a>
                         </div>
                     </div>
@@ -621,49 +621,13 @@
                     <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
                         <div class="pc__img-wrapper">
                             <a href="details.html">
-                                <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/rattan.jpg')}}" width="330" height="400"
-                                    alt="Rattan Basket" class="pc__img">
+                                <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/bioessencesoap.jpg')}}" width="330" height="400"
+                                    alt="Bioessence Soap" class="pc__img">
                             </a>
                         </div>
 
                         <div class="pc__info position-relative">
-                            <h6 class="pc__title"><a href="details.html">Rattan Basket</a></h6>
-                            <div class="product-card__price d-flex align-items-center">
-                                <span class="money price text-secondary">₱1500</span>
-                            </div>
-
-                            <div
-                                class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                                <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                                <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                                    <span class="d-none d-xxl-block">Quick View</span>
-                                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <use href="#icon_view" />
-                                        </svg></span>
-                                </button>
-                                <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <use href="#icon_heart" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
-                        <div class="pc__img-wrapper">
-                            <a href="details.html">
-                                <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/cocosugar.jpg')}}" width="330" height="400"
-                                    alt="Coco Sugar" class="pc__img">
-                            </a>
-                        </div>
-
-                        <div class="pc__info position-relative">
-                            <h6 class="pc__title"><a href="details.html">Coco Sugar</a></h6>
+                            <h6 class="pc__title"><a href="details.html">Bioessence Quadwhite Soap</a></h6>
                             <div class="product-card__price d-flex align-items-center">
                                 <span class="money price text-secondary">₱200</span>
                             </div>
@@ -694,15 +658,51 @@
                         <div class="pc__img-wrapper">
                             <a href="details.html">
                                 <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/durianjam.jpg')}}" width="330" height="400"
-                                    alt="SAJA Durian Jam" class="pc__img">
+                                    alt="Durian Jam" class="pc__img">
                             </a>
-                            <div class="product-label text-uppercase bg-white top-0 left-0 mt-2 mx-2">New</div>
                         </div>
 
                         <div class="pc__info position-relative">
                             <h6 class="pc__title"><a href="details.html">SAJA Durian Jam</a></h6>
                             <div class="product-card__price d-flex align-items-center">
-                                <span class="money price text-secondary">₱250</span>
+                                <span class="money price text-secondary">₱70</span>
+                            </div>
+
+                            <div
+                                class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
+                                <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
+                                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
+                                <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
+                                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
+                                    <span class="d-none d-xxl-block">Quick View</span>
+                                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <use href="#icon_view" />
+                                        </svg></span>
+                                </button>
+                                <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
+                                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <use href="#icon_heart" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
+                        <div class="pc__img-wrapper">
+                            <a href="details.html">
+                                <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/locally.jpg')}}" width="330" height="400"
+                                    alt="locally" class="pc__img">
+                            </a>
+                            <div class="product-label text-uppercase bg-white top-0 left-0 mt-2 mx-2">New</div>
+                        </div>
+
+                        <div class="pc__info position-relative">
+                            <h6 class="pc__title"><a href="details.html">Locally Pomelo Juice</a></h6>
+                            <div class="product-card__price d-flex align-items-center">
+                                <span class="money price text-secondary">₱37</span>
                             </div>
 
                             <div
@@ -737,9 +737,9 @@
                         </div>
 
                         <div class="pc__info position-relative">
-                            <h6 class="pc__title">Chicharon</h6>
+                            <h6 class="pc__title">Chicharon Regular</h6>
                             <div class="product-card__price d-flex align-items-center">
-                                <span class="money price-old">₱60</span>
+                                <span class="money price-old">₱55</span>
                                 <span class="money price text-secondary">45</span>
                             </div>
 
@@ -776,7 +776,7 @@
                         <div class="pc__info position-relative">
                             <h6 class="pc__title"><a href="details.html">Del Monte Pineapple Chunks</a></h6>
                             <div class="product-card__price d-flex align-items-center">
-                                <span class="money price text-secondary">₱80</span>
+                                <span class="money price text-secondary">₱114</span>
                             </div>
 
                             <div
@@ -804,15 +804,51 @@
                     <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
                         <div class="pc__img-wrapper">
                             <a href="details.html">
-                                <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/datuputi.jpg')}}" width="330" height="400"
+                                <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/kingherbal.png')}}" width="330" height="400"
                                     alt="Datu Puti Twin Pack" class="pc__img">
                             </a>
                         </div>
 
                         <div class="pc__info position-relative">
-                            <h6 class="pc__title"><a href="details.html">Datu Puti Twin Pack</a></h6>
+                            <h6 class="pc__title"><a href="details.html">King Herbal</a></h6>
                             <div class="product-card__price d-flex align-items-center">
-                                <span class="money price text-secondary">₱70</span>
+                                <span class="money price text-secondary">₱1,000</span>
+                            </div>
+
+                            <div
+                                class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
+                                <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
+                                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
+                                <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
+                                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
+                                    <span class="d-none d-xxl-block">Quick View</span>
+                                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <use href="#icon_view" />
+                                        </svg></span>
+                                </button>
+                                <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
+                                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <use href="#icon_heart" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
+                        <div class="pc__img-wrapper">
+                            <a href="details.html">
+                                <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/tocino.jpg')}}" width="330" height="400"
+                                    alt="tocinp" class="pc__img">
+                            </a>
+                        </div>
+
+                        <div class="pc__info position-relative">
+                            <h6 class="pc__title"><a href="details.html">CDO Beef Tapa</a></h6>
+                            <div class="product-card__price d-flex align-items-center">
+                                <span class="money price text-secondary">₱88</span>
                             </div>
 
                             <div
@@ -841,51 +877,15 @@
                         <div class="pc__img-wrapper">
                             <a href="details.html">
                                 <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/candlehandler.jpg')}}" width="330" height="400"
-                                    alt="Mang Thomas" class="pc__img">
-                            </a>
-                        </div>
-
-                        <div class="pc__info position-relative">
-                            <h6 class="pc__title"><a href="details.html">CDO Tocino</a></h6>
-                            <div class="product-card__price d-flex align-items-center">
-                                <span class="money price text-secondary">₱150</span>
-                            </div>
-
-                            <div
-                                class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                                <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                                <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                                    <span class="d-none d-xxl-block">Quick View</span>
-                                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <use href="#icon_view" />
-                                        </svg></span>
-                                </button>
-                                <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <use href="#icon_heart" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
-                        <div class="pc__img-wrapper">
-                            <a href="details.html">
-                                <img loading="lazy" src="{{asset('assets/images/home/demo3/supplybridge/Silka.jpg')}}" width="330" height="400"
                                     alt="Shamrock Otap" class="pc__img">
                             </a>
                         </div>
 
                         <div class="pc__info position-relative">
-                            <h6 class="pc__title">Silka Products</h6>
+                            <h6 class="pc__title">Mangrove Candelabra</h6>
                             <div class="product-card__price d-flex align-items-center">
                                 <span class="money price-old">150</span>
-                                <span class="money price text-secondary">80</span>
+                                <span class="money price text-secondary">₱3500</span>
                             </div>
 
                             <div
