@@ -311,7 +311,7 @@
                 <div class="overflow-hidden">
                     <ul class="navigation__list list-unstyled position-relative">
                         <li class="navigation__item">
-                            <a href="index.html" class="navigation__link">Home</a>
+                            <a href="{{route('home.index')}}" class="navigation__link">Home</a>
                         </li>
                         <li class="navigation__item">
                             <a href="{{route('shop.index')}}" class="navigation__link">Shop</a>
@@ -323,13 +323,14 @@
                             <a href="{{route('home.about')}}" class="navigation__link">About</a>
                         </li>
                         <li class="navigation__item">
-                            <a href="contact.html" class="navigation__link">Contact</a>
+                            <a href="{{route('home.contact')}}" class="navigation__link">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div class="border-top mt-auto pb-2">
+                <a href="{{route('user.index')}}">
                 <div class="customer-links container mt-4 mb-2 pb-1">
                     <svg class="d-inline-block align-middle" width="20" height="20" viewBox="0 0 20 20" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -338,7 +339,7 @@
                     <span class="d-inline-block ms-2 text-uppercase align-middle fw-medium">My Account</span>
                 </div>
 
-
+                </a>
 
                 <ul class="container social-links list-unstyled d-flex flex-wrap mb-0">
                     <li>
@@ -579,7 +580,7 @@
                     <h6 class="sub-menu__title text-uppercase">Help</h6>
                     <ul class="sub-menu__list list-unstyled">
                         <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Customer Service</a></li>
-                        <li class="sub-menu__item"><a href="account_dashboard.html" class="menu-link menu-link_us-s">My Account</a>
+                        <li class="sub-menu__item"><a href="{{route('user.index')}}" class="menu-link menu-link_us-s">My Account</a>
                         </li>
                         <li class="sub-menu__item"><a href="store_location.html" class="menu-link menu-link_us-s">Find a Store</a>
                         </li>

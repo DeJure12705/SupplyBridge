@@ -105,9 +105,9 @@
           <div class="product-single__price">
             <span class="current-price">
                 @if($product->sale_price)
-                       <s>${{$product->regular_price}}</s> ${{$product->sale_price}}
+                       <s>P{{$product->regular_price}}</s> P{{$product->sale_price}}
                     @else
-                        ${{$product->regular_price}}
+                        P{{$product->regular_price}}
                     @endif
                 </span>
           </div>

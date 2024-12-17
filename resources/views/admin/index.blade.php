@@ -26,7 +26,7 @@
                     <div class="flex items-center justify-between">
                         <div class="flex items-center gap14">
                             <div class="image ic-bg">
-                                <i class="icon-dollar-sign"></i>
+                                <i>P</i>
                             </div>
                             <div>
                                 <div class="body-text mb-2">Total Amount</div>
@@ -56,7 +56,7 @@
                     <div class="flex items-center justify-between">
                         <div class="flex items-center gap14">
                             <div class="image ic-bg">
-                                <i class="icon-dollar-sign"></i>
+                                <i >P</i>
                             </div>
                             <div>
                                 <div class="body-text mb-2">Pending Orders Amount</div>
@@ -89,7 +89,7 @@
                     <div class="flex items-center justify-between">
                         <div class="flex items-center gap14">
                             <div class="image ic-bg">
-                                <i class="icon-dollar-sign"></i>
+                                <i>P</i>
                             </div>
                             <div>
                                 <div class="body-text mb-2">Delivered Orders Amount</div>
@@ -119,7 +119,7 @@
                     <div class="flex items-center justify-between">
                         <div class="flex items-center gap14">
                             <div class="image ic-bg">
-                                <i class="icon-dollar-sign"></i>
+                                <i>P</i>
                             </div>
                             <div>
                                 <div class="body-text mb-2">Canceled Orders Amount</div>
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                     <div class="flex items-center gap10">
-                        <h4>${{$TotalAmount}}</h4>
+                        <h4>P{{$TotalAmount}}</h4>
                     </div>
                 </div>
                 <div>
@@ -157,7 +157,7 @@
                         </div>
                     </div>
                     <div class="flex items-center gap10">
-                        <h4>${{$TotalOrderedAmount}}</h4>
+                        <h4>P{{$TotalOrderedAmount}}</h4>
                     </div>
                 </div>
                 <div>
@@ -168,7 +168,7 @@
                         </div>
                     </div>
                     <div class="flex items-center gap10">
-                        <h4>${{$TotalDeliveredAmount}}</h4>
+                        <h4>P{{$TotalDeliveredAmount}}</h4>
                     </div>
                 </div>
                 <div>
@@ -179,7 +179,7 @@
                         </div>
                     </div>
                     <div class="flex items-center gap10">
-                        <h4>${{$TotalCanceledAmount}}</h4>
+                        <h4>P{{$TotalCanceledAmount}}</h4>
                     </div>
                 </div>
             </div>

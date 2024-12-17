@@ -33,7 +33,7 @@
             <div class="form-floating my-4">
               <input type="text" class="form-control" name="phone" placeholder="Phone *" value="{{old('phone')}}" required="">
               <label for="contact_us_name">Phone *</label>
-              @error('phone')<span class="text-danger">{{$message}}</span> @enderror
+              @error('phone')<span class="text-danger">{{$age}}</span> @enderror
             </div>
             <div class="form-floating my-4">
               <input type="email" class="form-control" name="email" placeholder="Email address *" value="{{old('email')}}" required="">
